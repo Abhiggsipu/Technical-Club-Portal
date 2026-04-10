@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/navbar.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="index.html">
+                    <h2>Tech Club</h2>
+                </a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contact.html">Join Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or would like to join our club, please
+                feel
+                free to reach out to us!</p>
+            <ul>
+                <li>Email: <a
+                        href="mailto:techclub@example.com">techclub@example.com</a></li>
+            </ul>
+        </div>
+        <section>
+            <h2>If You Want to participate in our events, join us!</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Name" />
+                <span class="error" id="nameError"></span>
+                <input type="email" id="email" placeholder="Email" />
+                <span class="error" id="emailError"></span>
+                <input type="text" id="phone" placeholder="Phone" />
+                <span class="error" id="phoneError"></span>
+                <input type="text" id="year" placeholder="Year/Section" />
+                <select id="interest">
+                    <option value>Select Interest</option>
+                    <option>Web Development</option>
+                    <option>AI/ML</option>
+                    <option>Competitive Programming</option>
+                    <option>App Development</option>
+                    <option>Cybersecurity</option>
+                    <option>Data Science</option>
+                    <option>Game Development</option>
+                    <option>Cloud Computing</option>
+                    <option>Robotics</option>
+                    <option>UI/UX Design</option>
+                    <option>Open Source Contribution</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <script src="script/form.js"></script>
+    </body>
+</html>
